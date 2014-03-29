@@ -1,0 +1,11 @@
+{
+    "spicesList": {
+        "type": "generic",
+        "default": false
+    },
+    
+    "cache": {
+        "type": "generic",
+        "default": {"applets": {}, "desklets": {}, "extensions": {}, "themes": {}}
+    }
+}

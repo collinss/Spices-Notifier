@@ -1,0 +1,41 @@
+.notify-newDialog-contentBox {
+    spacing: 5px;
+    padding: 5px;
+}
+
+.notify-entry {
+    background-color: #ffffff;
+    min-width: 100px;
+    /*padding: 3px;*/
+}
+
+.notify-dialog-table {
+    spacing: 10px;
+}
+
+.combo-box-menu {
+    background-color: white;
+    border: solid 3px black;
+    /*color: white;*/
+}
+
+.combobox-menu-item {
+    /*border: solid 1px blue;*/
+}
+
+.combobox-menu-item-text {
+    /*color: red;*/
+}
+
+.combobox {
+    border: solid 1px black;
+    border-radius: 4px;
+}
+
+.combobox-separator {
+    -gradient-height: 2px;
+    -gradient-start: rgba(85,85,85,1);
+    -gradient-end: #555555;
+    -margin-horizontal: 1.5em;
+    height: 1em;
+}

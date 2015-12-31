@@ -26,18 +26,6 @@ const TYPES = [
 ]
 
 
-let XLETS = [
-    {type: "applets", title: "Places Center", id: "128"},
-    {type: "applets", title: "Office Center", id: "143"},
-    {type: "applets", title: "Graphics Center", id: "148"},
-    {type: "applets", title: "Launcher", id: "139"},
-    {type: "applets", title: "Weather", id: "17"},
-    {type: "desklets", title: "Calculator", id: "11"},
-    {type: "desklets", title: "Soundbox", id: "13"},
-    {type: "desklets", title: "Developer's Tools", id: "17"},
-]
-
-
 function MenuItem(parent, info) {
     this._init(parent, info);
 }
@@ -120,8 +108,6 @@ MyApplet.prototype = {
             this.menuManager = new PopupMenu.PopupMenuManager(this);
             this.menu = new Applet.AppletPopupMenu(this, this.orientation);
             this.menuManager.addMenu(this.menu);
-            
-            if ( !this.spicesList ) this.spicesList = XLETS;
             
             this.buildMenu();
             

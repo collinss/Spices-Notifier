@@ -1,7 +1,53 @@
 {
     "spicesList": {
         "type": "generic",
-        "default": false
+        "default": [
+            {
+                "type": "applets",
+                "title": "Places Center",
+                "id": "128"
+            },
+            {
+                "type": "applets",
+                "title": "Office Center",
+                "id": "143"
+            },
+            {
+                "type": "applets",
+                "title": "Graphics Center",
+                "id": "148"
+            },
+            {
+                "type": "applets",
+                "title": "Launcher",
+                "id": "139"
+            },
+            {
+                "type": "applets",
+                "title": "Session Manager",
+                "id": "175"
+            },
+            {
+                "type": "applets",
+                "title": "Sticky Notes",
+                "id": "194"
+            },
+            {
+                "type": "desklets",
+                "title": "Calculator",
+                "id": "11"
+            },
+            {
+                "type": "desklets",
+                "title": "Soundbox",
+                "id": "13"
+            },
+            {
+                "type": "desklets",
+                "title": "Developer's Tools",
+                "id": "17"
+            }
+        ]
     },
     
     "cache": {
